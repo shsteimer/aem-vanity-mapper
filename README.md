@@ -9,7 +9,7 @@ The ideas is not necessarily original; it seems as though most AEM sys admins ha
 
 ## Using the tool
 First, set up a cron job to call the python script at a regualr interval, usually every 5 or 10 minutes works.  The script is called with the following syntax:
-python vanity-mapper.py <publisher base url> <username> <password> <content base path> <output file>
+python vanity-mapper.py \<publisher base url\> \<username\> \<password\> \<content base path\> \<output file\>
 
 For example:
 python vanity-mapper.py http://localhost:4503 admin admin /content/mySite /etc/httpd/conf.d/vanitymap.txt
